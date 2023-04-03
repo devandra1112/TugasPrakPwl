@@ -74,7 +74,7 @@
             <li class="nav-item {{ request()->is('admin/user') ? 'active' : ''}}">
                 <a class="nav-link" href="/admin/user">
                     <i><ion-icon name="accessibility-outline"></ion-icon></i>
-                    <span>User</span></a>
+                    <span>Users</span></a>
             </li>
 
             <!-- Divider -->
