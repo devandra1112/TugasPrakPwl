@@ -77,6 +77,34 @@
                     <span>User</span></a>
             </li>
 
+            <!-- Nav Item - Lampiran -->
+            <li class="nav-item {{ request()->is('admin/lampiran') ? 'active' : ''}}">
+                <a class="nav-link" href="/admin/lampiran">
+                    <i><ion-icon name="attach-outline"></ion-icon></i>
+                    <span>Lampiran</span></a>
+            </li>
+
+            <!-- Nav Item - Komentar -->
+            <li class="nav-item {{ request()->is('admin/komentar') ? 'active' : ''}}">
+                <a class="nav-link" href="/admin/komentar">
+                    <i><ion-icon name="chatbox-ellipses-outline"></ion-icon></i>
+                    <span>Komentar</span></a>
+            </li>
+
+            <!-- Nav Item - Grafik -->
+            <li class="nav-item {{ request()->is('admin/grafik') ? 'active' : ''}}">
+                <a class="nav-link" href="/admin/grafik">
+                    <i><ion-icon name="stats-chart-outline"></ion-icon></i>
+                    <span>grafik</span></a>
+            </li>
+
+            <!-- Nav Item - Keluar -->
+            <li class="nav-item {{ request()->is('admin/keluar') ? 'active' : ''}}">
+                <a class="nav-link" href="/admin/keluar">
+                    <i><ion-icon name="log-out-outline"></ion-icon></i>
+                    <span>Log-Out</span></a>
+            </li>
+            
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 

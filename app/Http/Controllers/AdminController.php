@@ -26,6 +26,26 @@ class AdminController extends Controller
         return view('admin.user');
     }
 
+    public function show_lampiran()
+    {
+        return view('admin.lampiran');
+    }
+
+    public function show_komentar()
+    {
+        return view('admin.komentar');
+    }
+
+    public function show_grafik()
+    {
+        return view('admin.grafik');
+    }
+
+    public function show_keluar()
+    {
+        return view('admin.keluar');
+    }
+
     public function create()
     {
         //
